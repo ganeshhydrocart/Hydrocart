@@ -1,0 +1,14 @@
+body,html
+{
+width:100%;
+height:auto;
+float:left;
+padding:0px;
+margin:0px;
+}
+.invoice_contain
+{
+width:100%;
+height:auto;
+float:left;
+}

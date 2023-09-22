@@ -1,0 +1,138 @@
+@CHARSET "UTF-8";
+.sbHolder{
+background-color:#fff;
+border: solid 1px #ccc;
+font-size: 12px;
+font-weight: normal;
+height:42px;
+position: relative;
+width: 200px;
+}
+.sbHolder:focus .sbSelector{
+
+}
+.sbSelector{
+display: block;
+height:30px;
+left: 0;
+font-family: 'Montserrat' !important;
+    font-weight: bold !important;
+line-height: 30px;
+outline: none;
+overflow: hidden;
+position: absolute;
+text-indent: 10px;
+top:5px;
+width: 170px;
+}
+.sbSelector:link, .sbSelector:visited, .sbSelector:hover{
+color: #000;
+outline: none;
+text-decoration: none;
+}
+.sbToggle{
+background: url(../images/hydrocart-new-images/down-arrowimg.png) no-repeat;
+display: block;
+height:30px;
+outline: none;
+position: absolute;
+right: 0;
+top:9px;
+width: 30px;
+background-size:83%;
+}
+/*.sbToggle:hover{
+background: url(../images/hydrocart-new-images/uparrow-img.png) no-repeat;
+}*/
+.sbToggleOpen{
+background: url(../images/hydrocart-new-images/uparrow-img.png) no-repeat;
+margin: 0px 0px 0px 0px;
+background-size:83%;
+}
+/*.sbToggleOpen:hover{
+background: url(../images/hydrocart-new-images/uparrow-img.png) no-repeat;
+}*/
+.sbHolderDisabled{
+background-color: #3C3C3C;
+border: solid 1px #515151;
+}
+.sbHolderDisabled .sbHolder{
+
+}
+.sbHolderDisabled .sbToggle{
+
+}
+.sbOptions{
+background-color: #fff;
+border: solid 1px #ccc;
+list-style: none;
+left: -1px;
+margin: 0;
+padding: 0;
+position: absolute;
+top: 41px !important;
+width: 200px;
+z-index: 111;
+overflow:auto;
+overflow-y: scroll;
+max-height:300px !important;
+}
+.sbOptions li{
+padding: 0 7px;
+}
+.sbOptions a{
+white-space: nowrap;
+text-overflow: ellipsis;
+overflow: hidden;      
+display: block;
+outline: none;
+padding:3px 0 3px 3px;
+letter-spacing: 0.6px;
+font-family: 'Montserrat' !important;
+    font-weight: bold !important;
+}
+.sbOptions a:link, .sbOptions a:visited{
+color: #000;
+text-decoration: none;
+}
+.sbOptions a:hover,
+.sbOptions a:focus,
+.sbOptions a.sbFocus{
+color: #111;
+}
+.sbOptions li.last a{
+border-bottom: none;
+}
+.sbOptions .sbDisabled{
+border-bottom: dotted 1px #515151;
+color: #999;
+display: block;
+padding: 7px 0 7px 3px;
+position: relative;
+font-size: 12px;
+}
+.sbOptions .sbGroup{
+border-bottom: dotted 1px #515151;
+color: #3C5FAE;
+display: block;
+font-weight: bold;
+padding: 7px 0 7px 3px;
+position: relative !important;
+font-size: 12px;
+}
+.sbOptions .sbSub{
+padding-left: 17px;
+}
+.sbOptions::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+.sbOptions::-webkit-scrollbar-track {
+  background: #fff;        /* color of the tracking area */
+}
+
+.sbOptions::-webkit-scrollbar-thumb {
+  background-color: blue;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #fff;  /* creates padding around scroll thumb */
+}
