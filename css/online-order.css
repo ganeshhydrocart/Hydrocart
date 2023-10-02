@@ -1697,7 +1697,7 @@ color:#000 !important;
 {
 text-decoration:none;
 }
-.txtactive { color:#b20101; }
+.txtactive { color:#b20101 !important;}
 .myacctxt
 {
 font-size:16px;
