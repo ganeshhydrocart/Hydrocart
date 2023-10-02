@@ -1691,7 +1691,7 @@ line-height:30px;
 }
 .myacc_list ul li a
 {
-color:red;
+color:red !important;
 }
 .myacc_list ul li a:hover
 {
