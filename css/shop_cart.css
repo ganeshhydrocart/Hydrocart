@@ -116,8 +116,14 @@ border-radius: 8px;
 position: fixed;
 bottom: 30px;
 margin: 0px 35%;
-z-index: 11;
+z-index: 1111 !important;
 display: none;
+}
+#signup_result
+{
+width: auto !important;
+height: auto !important;
+float: left !important;    
 }
 .cls_iconbtn a img 
 {

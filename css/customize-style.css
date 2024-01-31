@@ -41,6 +41,28 @@ background-color: #fff !important;
 padding: 15px !important;
 border-radius: 5px !important;   
 }
+.mob_view_logo { display:none; }
+.login_back_btn { width:auto;
+height:auto;
+float:left;
+margin:0px 0px 20px 0px;
+display:none;
+}
+.login_back_btn a
+{
+font-size:11px;
+color:#000;
+border:1px solid #ccc;
+background-color:#f8f8f8;
+padding:5px 8px;
+border-radius:5px;
+letter-spacing:1px;
+}
+.login_back_btn a:hover, .login_back_btn a:focus
+{
+background-color:#eee; 
+text-decoration:none;
+}
 .toppicksbg
 {
 width: 100%;
@@ -617,8 +639,7 @@ height:185px !important;
 width:100%;
 height:auto;
 float:left;     
-position: relative;
-top: 420px;    
+margin-top: 420px;    
 }
 #myCarousel
 {
@@ -6725,7 +6746,7 @@ width: 25%;
 margin: 0;
 padding: 0;
 list-style: none;
-background-color:#fff;
+background-color:#d7edff;
 
 }
 .mainNav ul li {
@@ -6749,7 +6770,8 @@ text-decoration: none;
 /* Second Level */
 .mainNav ul ul {
 border-bottom: none;
-background-color:#f4fbff;
+background-color: #f4fbff;
+padding: 10px 0px;
 }
 .mainNav ul ul li {
 
@@ -11771,6 +11793,11 @@ margin:150px 0px 0px 0px;
 margin: 0 auto !important;
 width:1347px !important;
 }
+.hydro_hm_skelton div.container-fluid
+{
+margin: 0 auto !important;
+width:1347px !important;
+}
 .productlist_filter
 {
 width:100%;
@@ -12243,8 +12270,9 @@ margin:0px;
 } 
 .pro_displaysec_list ul li {
 width: 23%;
-height:350px !important;
+height:auto !important;
 float: left;
+max-height:350px !important;
 list-style: none;
 border:1px solid transparent;
 margin: 0px 1% 5px 1%;
@@ -12419,7 +12447,7 @@ margin:0px;
 } 
 .pro_displaysec_list ul li {
 width: 23%;
-height:320px;
+height:350px !important;
 float: left;
 list-style: none;
 border:1px solid #eee;
@@ -14246,13 +14274,13 @@ width: 30%;
 height: auto;
 float: left;
 padding: 15px 20px;
-background-color:#058ac9 !important;
+background-color:#058ac9;
 box-shadow:1px 1px 3px #767676 !important;
 border-radius: 8px;
 position: fixed;
 bottom: 30px;
 margin: 0px 35%;
-z-index: 11;
+z-index: 1111;
 display: none;
 }
 .cls_iconbtn a img 
